@@ -1,0 +1,157 @@
+/* -----fonts family link--- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6 p,ol ul{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+:root{
+    --ubuntu: "Ubuntu", sans-serif;
+    --primary: #42454A;
+}
+/* ------navber part css start------- */
+.main_manu{
+    padding: 26px 0;
+    border-bottom: 1px solid #EAE8F3;
+    text-transform: uppercase;
+}
+.main_manu img{
+    width: 70px;
+} 
+.main_manu ul{
+    gap: 76px;
+}
+.main_manu ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary) !important;
+    padding: 0 !important;
+}
+.main_manu .manu_bottons {
+    display: flex;
+    gap: 24px;
+}
+.manu_bottons a{
+     height: 48px;
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     border-radius: 4px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+     transition: .3s all linear;
+}
+.manu_bottons a:nth-child(2){
+    width: 102px;
+    color: #fff;
+    background-color: var(--primary);
+}
+.manu_bottons a:nth-child(1){
+    width: 106px; 
+    color: var(--primary);
+    background-color: #fff;
+}
+.manu_bottons a:nth-child(2):hover{
+    color: var(--primary);
+    background-color: #fff;
+}
+.manu_bottons a:nth-child(1):hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+/* ------navber part css end------- */
+/* ------banner  part css start------- */
+.banner_text h1{ 
+    font-size: 90px;
+    font-weight: 300;
+    color: var(--primary);
+    line-height: 95px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+}
+.banner_text h1 span{
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+    position: relative;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 52%;
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+.banner_text .text_line{
+    width: 335px;
+    height: 4px;
+    background-color: var(--primary);
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+.banner_text p{
+    width: 353px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    line-height: 34px;
+    letter-spacing: 1%;
+}
+.banner_bttons .bye_btn{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.banner_bttons .bye_btn span{
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7EAE3;
+    background-color: #42454a8f;
+}
+.banner_bttons .bye_btn{
+   font-size: 20px;
+   font-weight: 500;
+   font-family: var(--ubuntu);
+   color: #17181A;
+   line-height: 32px;
+   letter-spacing: 2%;
+}
+.banner_bttons .vidio_open{
+    display: flex;
+    
+ }
+/* ------banner  part css end------- */
