@@ -26,6 +26,24 @@ a{
     --ubuntu: "Ubuntu", sans-serif;
     --primary: #42454A;
 }
+/* ---common head css start----- */
+.common_head{
+    text-align: center;
+}
+.common_head h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: var(--ubuntu);
+    margin-bottom: 34px;
+}
+.common_head p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary);
+    font-family: var(--ubuntu);
+}
+/* ---common head css end----- */
 /* ------navber part css start------- */
 .main_manu{
     padding: 26px 0;
@@ -93,7 +111,7 @@ a{
     overflow: hidden;
     white-space: nowrap;
     border-right: 2px solid;
-    animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
+    animation: type 1.7s steps(90) .4s normal both, cursor 1s step-end infinite;
     position: relative;
 }
 
@@ -112,6 +130,10 @@ a{
         border-color: transparent;
     }
 }
+#banner{
+    padding-top: 84px;
+    position: relative;
+}
 .banner_text .text_line{
     width: 335px;
     height: 4px;
@@ -127,31 +149,131 @@ a{
     color: var(--primary);
     line-height: 34px;
     letter-spacing: 1%;
+    margin-bottom: 44px;
+}
+.banner_bttons{
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
 .banner_bttons .bye_btn{
     display: flex;
     align-items: center;
     gap: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--ubuntu);
+    color: #17181A;
+    line-height: 32px;
+    letter-spacing: 2%;
 }
 .banner_bttons .bye_btn span{
     width: 58px;
     height: 58px;
+    font-size: 16px;
+    font-weight: 100;
     display: flex;
-    justify-content: center;
+    padding-left: 20px;
     align-items: center;
     color: #F7EAE3;
-    background-color: #42454a8f;
+    background-color: #42454a47;
 }
-.banner_bttons .bye_btn{
-   font-size: 20px;
-   font-weight: 500;
-   font-family: var(--ubuntu);
-   color: #17181A;
-   line-height: 32px;
-   letter-spacing: 2%;
-}
-.banner_bttons .vidio_open{
-    display: flex;
-    
+ .banner_bttons .play{
+    width: 80px;
+    height: 80px;
+    animation: rotate 2s linear infinite;
+ }
+ .banner_bttons .vidio_open{
+    width: 87px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1%;
+    color: #414449;
+    font-family: var(--ubuntu);
+ }
+#banner .banner_img{
+    width: 856px;
+    position: absolute;
+    top: 31px;
+    right: 0;
+ }
+ @keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
  }
 /* ------banner  part css end------- */
+ /* <!-- -----counter---part--- css ---start----- */
+#count_up{
+    padding-top: 209px;
+}
+ .all_counters{
+    display: flex;
+    justify-content: center;
+}
+ .all_counters .single_counter{
+    width: 174px;
+    height: 137px;
+    border: 7px;
+    display: flex;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.single_counter h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+.single_counter span{
+    font-size: 40px;
+}
+.single_counter p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+ /* <!-- -----counter---part--- css ---end----- */
+ /* <!-- --------product----info------part-----start------ */
+ #product_ifo{
+    padding-top: 127px;
+    padding-bottom: 143px;
+    position: relative;
+ }
+#product_ifo .product_ditels{
+    margin-top: 143px;
+    display: flex;
+    justify-content: flex-end;
+}
+.product_ditels ul li{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.product_ditels ul li:nth-child(6){
+    margin-bottom: 0;
+}
+.product_ditels ul li img{
+    width: 49px;
+}
+.product_ditels ul li p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+#product_ifo .product_info_img{
+    position: absolute;
+    top: 270px;
+    left: 0;
+}
+/* ----product---info-------part-----end------ */
