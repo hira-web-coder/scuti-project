@@ -11,7 +11,7 @@ img{
     max-width: 100%;
     vertical-align: middle;
 }
-h1,h2,h3,h4,h5,h6 p,ol ul{
+h1,h2,h3,h4,h5,h6 p,ol,ul{
     margin: 0;
     padding: 0;
 }
@@ -245,7 +245,7 @@ a{
  /* <!-- --------product----info------part-----start------ */
  #product_ifo{
     padding-top: 127px;
-    padding-bottom: 143px;
+    padding-bottom: 121px;
     position: relative;
  }
 #product_ifo .product_ditels{
@@ -277,3 +277,76 @@ a{
     left: 0;
 }
 /* ----product---info-------part-----end------ */
+
+#motor{
+    padding-top: 100px;
+}
+#motor .motor_img{
+    margin-top: 49px;
+}
+ /* --------motor-------part-----end------ */
+/* ----Accessories---info-------part-----start------ */
+#Accessories{
+    padding-top: 295px;
+    position: relative;
+}
+#Accessories .Accessories_row{
+    margin-top: 120px;
+    align-items: center;
+}
+.common_list h2{
+    margin-bottom: 33px;
+    display:block;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: var(--ubuntu);
+}
+.common_list ul li{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.common_list ul li img{
+    width: 49px;
+}
+.common_list ul li p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+}
+.common_list ul li:nth-child(4){
+    margin-bottom: 0;
+}
+.rack_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 129px;
+}
+#Accessories .sopping_rack_img{
+    width: 779px;
+    position: absolute;
+    top: 1128px;
+    left: 0;
+}
+.more_Accessories{
+    width: 570px;
+    height: 94px;
+    margin: 0 auto;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    margin-top: 94px; 
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.more_Accessories h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: var(--ubuntu);
+}
+/* ----Accessories------part-----end------ */
