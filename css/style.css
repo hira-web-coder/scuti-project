@@ -56,6 +56,9 @@ a{
 .main_manu ul{
     gap: 76px;
 }
+.main_manu ul li{
+    position: relative;
+}
 .main_manu ul li a{
     font-size: 14px;
     font-weight: 400;
@@ -93,6 +96,40 @@ a{
 .manu_bottons a:nth-child(1):hover{
     color: #fff;
     background-color: var(--primary);
+}
+.main_manu ul li::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transition: .3s all linear;
+}
+.main_manu ul li:hover::before{
+    width: 100%;
+}
+.main_manu ul .fit_before:hover::before{
+    width: 62%;
+}
+.main_manu ul li ul{
+    margin-top: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 15px;
+    background-color: var(--primary);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    visibility: hidden;
+}
+.main_manu ul li ul li a{
+    color: #fff !important;
+}
+.main_manu ul li:hover ul{
+    visibility: visible;
+}
+.main_manu ul li ul li a::before{
+    background-color: #fff;
 }
 /* ------navber part css end------- */
 /* ------banner  part css start------- */
