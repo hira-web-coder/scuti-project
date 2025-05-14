@@ -387,3 +387,158 @@ a{
     font-family: var(--ubuntu);
 }
 /* ----Accessories------part-----end------ */
+/* - -------Gallery-----parft start--------- */
+#gallery{
+    padding-top: 121px;
+    padding-bottom: 128px;
+}
+#gallery .gallery_col_1{
+    margin-top: 302px;
+}
+.gallery_col_1 .gallery_img_1{
+    width: 633px;
+    margin-bottom: 55px;
+}
+.gallery_col_1 .gallery_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.gallery_col_1 .gallery_buttons a{
+    width: 570px;
+    height: 94px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery .gallery_col_2{
+    margin-top: 112px;
+}
+.gallery_col_2 .gallery_img_2{
+    width: 633px;
+    margin-bottom: 96px;
+}
+.gallery_col_2 .gallery_img_3{
+    width: 633px;
+}
+ /* -------------Gallery-----parft end----------  */
+ /* -----colors-------parft start-------- */
+ #colors{
+    padding-bottom: 366px;
+ }
+ .my_slider{
+    margin-top: 152px;
+    position: relative;
+}
+.my_slider .slider-nav{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -200px;
+}
+.my_slider .slider-nav .single_slid_nav_item img{
+    width: 245px;
+}
+/* -----colors-------parft------end-------- */
+/* -----Testimonials-------parft----start------ */
+#Testimonials{
+    padding-top: 78px;
+    padding-bottom: 167px;
+    background-color: #FAFAFA;
+}
+/* ---slider_2--- */
+.my_slider_2{
+    position: relative;
+}
+.my_slider_2 .slider_items .single_slider_item{
+    width: 360px;
+    height: 366px;
+    border: 1px solid #D8D8D8;
+    padding-top: 52px;
+    padding-bottom: 54px;
+    transition: all linear .2s;
+}
+.slider_items .single_slider_item ul{
+    display: flex;
+    justify-content: center;
+}
+.slider_items .single_slider_item ul li i{
+   color: #FE8B75;
+}
+.slider_items .single_slider_item h2{
+    width: 304px;
+    height: 140px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 47px;
+}
+.slider_items .single_slider_item .item_3{
+    width: 291px;
+}
+.rivew_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rivew_profile .reviwe_img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rivew_profile .profile_text p{
+      font-size: 16px;
+    font-weight: 400;
+    font-family: var(--ubuntu);
+    color: var(--primary);
+    margin: 0;
+}
+.rivew_profile .profile_text p:nth-child(2){
+    font-size: 14px;
+}
+.slider_items .single_slider_item:hover{
+    border: 1px solid #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.arrow1, .arrow2{
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+   border: 1px solid var(--primary);
+   background-color: #fff;
+   color: var(--primary);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: -85px;
+   transform: translatex(-50%);
+   transition: all linear .2s;
+}
+.arrow1{
+    left: 45%;
+}
+.arrow2{
+    right: 45%;
+} .arrow1:hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+.arrow2:hover{
+    color: #fff;
+    background-color: var(--primary);
+}
+ /* -----Testimonials-------parft---end----- */
