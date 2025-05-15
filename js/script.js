@@ -1,8 +1,5 @@
-$('.counter').counterUp({
-delay:10,
-time:500,
-})
-// ---silk slider-----------
+$('.counter').counterUp();
+// silk slider-----------
 
  $('.slider-for').slick({
   slidesToShow: 1,
@@ -11,6 +8,7 @@ time:500,
   fade: true,
   asNavFor: '.slider-nav'
 });
+// -----------testimonials slider-----
 $('.slider-nav').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
