@@ -7,13 +7,14 @@
      <!-- ------silk slider link------- -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Aos animations link----------- -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- ---bootstrap ---cdn----link------ -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <!-- ------all-min-css------ -->
      <link rel="stylesheet" href="css/all.min.css">
-    <!-- ----main-css-link------ -->
-    <link rel="stylesheet" href="css/style.css">
+     <!-- ----main-css-link------ -->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- --------navber part start--------- -->
@@ -21,9 +22,9 @@
         <div class="container">
           <a class="navbar-brand" href="#"><img src="imges/logo.png" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+           <i class="fa-solid fa-bars-staggered"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse ul_botton" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto main_ul">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">PRODUCTS</a>
@@ -58,10 +59,14 @@
       <section id="banner">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12"> 
+               <!-- ---responsive_baner_img---- -->
+                 <div class="responsive_baner_img">
+          <img src="imges/banner_image.png" alt="banner image">
+        </div>
               <div class="banner_text">
                     <h1>Let's ride <span> the future.</span></h1>
-                  <div class="text_line"></div>
+                      <div class="text_line"></div>
                   <p>Simple and sleek design with users in mind.</p>
                   <div class="banner_bttons">
                       <a class="bye_btn" href="#"><span><i class="fa-solid fa-arrow-right"></i></span>Buy now</a>
@@ -88,8 +93,7 @@
          
          <div class="single_counter">
           <h2>
-            <span class="counter">105</span>lbs
-          </h2>
+            <span class="counter">105</span> lbs</h2>
           <p>Net Weight</p>
          </div>
           <div class="single_counter">
@@ -134,8 +138,13 @@
           </div>
         </div>
         <div class="row">
+          <!----- responsiv_info_img----- -->
+           <div data-aos="fade-right" data-aos-duration="1000" class="responsiv_info_img">
+              <img src="imges/product_info.png" alt="responsiv_info_img">
+            </div>
+             <!----- responsiv_info_img----- -->
           <div class="col-lg-12">
-            <div class="product_ditels">
+            <div data-aos="fade-left" data-aos-duration="1000" class="product_ditels">
               <ul>
                 <li><img src="imges/Icon.png" alt="icon"><p>Lightweight aircraft grade aluminium frame</p></li>
                 <li><img src="imges/Icon.png" alt="icon"><p>Car grade lithium battery</p></li>
@@ -148,8 +157,8 @@
           </div>
         </div>
       </div>
-          <div class="product_info_img">
-              <img src="imges/product_info.png" alt="product_info">
+          <div data-aos="fade-right" data-aos-duration="1000" class="product_info_img">
+              <img src="imges/product_info.png" alt="product_info_img">
             </div>
     </section>
    <!-- --------product----info------part-----end--------- -->
@@ -166,7 +175,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <div class="motor_img">
+            <div data-aos="zoom-in" data-aos-duration="1500" class="motor_img">
               <img src="imges/motor.png" alt="motor">
             </div>
           </div>
@@ -187,7 +196,7 @@
        </div>
         <div class="row Accessories_row">
           <div class="col-lg-4">
-            <div class="common_list">
+            <div data-aos="zoom-in-right" data-aos-duration="2000" class="common_list">
               <h2>Golf Bag Rock</h2>
                <ul>
                 <li><img src="imges/Icon.png" alt="icon"><p>Material : Aluminium alloy</p></li>
@@ -198,14 +207,21 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <div class="Accessories_img">
+            <div data-aos="zoom-in-left" data-aos-duration="2000" class="Accessories_img">
               <img src="imges/accessories.png" alt="Accessories_img">
             </div>
             </div>
         </div>
+         <!-- ----Accessories-------part-----end---- -->
+        <!-- ------row Accessories_row_2------start--- -->
         <div class="row Accessories_row_2">
           <div class="col-lg-12">
-             <div class="common_list rack_list">
+            <!-- -----responsiv sopping img---- -->
+             <div data-aos="zoom-in-right" data-aos-duration="2000" class="responsive_rack_img">
+        <img src="imges/shopingImg.png" alt="sopping rack img">
+      </div>
+        <!-- -----responsiv sopping img---- -->
+             <div data-aos="zoom-in-left" data-aos-duration="2000" class="common_list rack_list">
               <h2>Shopping Rack</h2>
                <ul>
                 <li><img src="imges/Icon.png" alt="icon"><p>Material : Aluminium alloy</p></li>
@@ -224,11 +240,11 @@
           </div>
         </div>
       </div>
-      <div class="sopping_rack_img">
+      <div data-aos="zoom-in-right" data-aos-duration="2000" class="sopping_rack_img">
         <img src="imges/shopingImg.png" alt="sopping rack img">
       </div>
     </section>
-  <!-- ----Accessories-------part-----end-- -->
+  <!-- ----Accessories row 2-------part-----end-- -->
  <!-- -------------Gallery-----parft start---------- -->
   <section id="gallery">
     <div class="container">
@@ -242,7 +258,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6 gallery_col_1">
-          <div class="gallery_img_1">
+          <div class="gallery_img_1 gallery_img">
             <img src="imges/gallery_1.png" alt="gallery-img">
           </div>
           <div class="gallery_buttons">
@@ -252,10 +268,10 @@
           </div>
         </div>
         <div class="col-lg-6 gallery_col_2">
-           <div class="gallery_img_2">
+           <div class="gallery_img_2 gallery_img">
             <img src="imges/gallery_2.png" alt="gallery-img">
           </div>
-           <div class="gallery_img_3">
+           <div class="gallery_img_3 gallery_img">
             <img src="imges/gallery_3.png" alt="gallery-img">
           </div>
         </div>
@@ -521,7 +537,9 @@
  <!---------Testimonials-----parft end--------  -->
  <!---------Subscribe To Newsletter-----parft start--------  -->
  <section id="subscribe">
-  <div class="container">
+  <div  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" class="container">
     <div class="row">
        <div class="col-lg-12">
             <div class="common_head">
@@ -542,6 +560,19 @@
  </section>
  <!-- ------Subscribe To Newsletter--part end---- -->
  <!-- ------footer--part start---- -->
+  <!-- ----responsiv_footerimg----- -->
+ <section id="respons">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+           <div class="responsiv_footer_img">
+      <img src="imges/footerImage.png" alt="footer imge">
+    </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- ----responsiv_footerimg----- -->
  <footer>
  <div class="container">
       <div class="row">
@@ -594,7 +625,7 @@
     <!-- ---counter up min .js---- -->
    <script src="js/jquery.counterup.min.js"></script>
     <!-- ---aos animation------linl---->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	 <!-- ---bootstrap ---cdn----link------ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> 
     <!-- ------silk slider link------- -->

@@ -220,7 +220,6 @@ a{
 }
  .banner_bttons .play{
     width: 80px;
-    height: 80px;
     animation: rotate 2s linear infinite;
  }
  .banner_bttons .vidio_open{
@@ -232,12 +231,7 @@ a{
     color: #414449;
     font-family: var(--ubuntu);
  }
-#banner .banner_img{
-    width: 856px;
-    position: absolute;
-    top: 31px;
-    right: 0;
- }
+
  @keyframes rotate{
     from{
         transform: rotate(0deg);
@@ -245,7 +239,17 @@ a{
     to{
         transform: rotate(360deg);
     }
+}
+    #banner .banner_img{
+    width: 856px;
+    position: absolute;
+    top: 31px;
+    right: 0;
  }
+  #banner .responsive_baner_img{
+     display: none;
+  }
+
 /* ------banner  part css end------- */
  /* <!-- -----counter---part--- css ---start----- */
 #count_up{
@@ -260,7 +264,7 @@ a{
     height: 137px;
     border: 7px;
     display: flex;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
    flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -311,13 +315,15 @@ a{
     font-family: var(--ubuntu);
     color: var(--primary);
 }
+#product_ifo .responsiv_info_img{
+   display: none;
+}
 #product_ifo .product_info_img{
     position: absolute;
     top: 270px;
     left: 0;
 }
 /* ----product---info-------part-----end------ */
-
 #motor{
     padding-top: 100px;
 }
@@ -366,6 +372,9 @@ a{
     align-items: flex-end;
     padding-top: 129px;
 }
+.Accessories_row_2 .responsive_rack_img{
+    display: none;
+}
 #Accessories .sopping_rack_img{
     width: 779px;
     position: absolute;
@@ -398,8 +407,10 @@ a{
 #gallery .gallery_col_1{
     margin-top: 302px;
 }
-.gallery_col_1 .gallery_img_1{
+#gallery .gallery_img{
     width: 633px;
+}
+.gallery_col_1 .gallery_img_1{
     margin-bottom: 55px;
 }
 .gallery_col_1 .gallery_buttons{
@@ -419,16 +430,18 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear .3s;
+}
+.gallery_col_1 .gallery_buttons a:hover{
+    background-color: var(--primary);
+    color: #FBFBFB;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 #gallery .gallery_col_2{
     margin-top: 112px;
 }
 .gallery_col_2 .gallery_img_2{
-    width: 633px;
     margin-bottom: 96px;
-}
-.gallery_col_2 .gallery_img_3{
-    width: 633px;
 }
  /* -------------Gallery-----parft end----------  */
  /* -----colors-------parft start-------- */
@@ -514,7 +527,7 @@ a{
 }
 .slider_items .single_slider_item:hover{
     border: 1px solid #fff;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .arrow1, .arrow2{
    width: 42px;
@@ -532,10 +545,10 @@ a{
    transition: all linear .2s;
 }
 .arrow1{
-    left: 45%;
+    left: 46%;
 }
 .arrow2{
-    right: 45%;
+    right: 46%;
 } .arrow1:hover{
     color: #fff;
     background-color: var(--primary);
@@ -580,6 +593,13 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s all linear;
+ }
+ .email_button a:hover{
+    background-color: #F5F5F5;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
  /* --Subscribe To Newsletter--part end- */
  /* ------footer--part star */
@@ -640,5 +660,8 @@ footer p{
    transform: translatex(-50%);
    bottom: 0;
    margin-bottom: 0 !important;
+}
+.responsiv_footerimg{
+    display: none;
 }
  /* ------footer--part end---- */

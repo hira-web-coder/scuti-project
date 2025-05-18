@@ -1,0 +1,551 @@
+@media (max-width: 575.98px){
+	/* ----manu css --end  ------ */
+.main_manu img {
+	width: 40px;
+}
+.main_manu {
+	padding: 16px 0px;
+} 
+.navbar-toggler{
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler-icon {
+	width: 20px;
+	height: 20px;
+}
+.main_manu .main_ul li:hover::before {
+	width: 0;
+}
+.main_manu .main_ul {
+	gap: 25px;
+    margin-top: 25px;
+    align-items: center;
+	margin-top: 25px;
+	border-top: 1px solid #EAE8F3;
+	padding-top: 10px;
+}
+.main_manu .main_ul li:hover ul {
+    visibility: hidden;
+}
+.fit_before{
+    text-align: center;
+}
+.main_manu .main_ul li a {
+	font-size: 12px;
+}
+.main_manu .main_ul .fit_before:hover::before{
+    width: 0;
+}
+.manu_bottons a {
+	height: 38px;
+    width: 90px;
+    font-size: 14px;
+}
+.main_manu .manu_bottons {
+    display: flex;
+    justify-content: center;
+	margin-top: 15px;
+}
+/* ----manu end csss: ------ */
+/* -----banner css start------ */
+ #banner {
+	padding-top: 25px;
+}
+#banner .banner_img{
+    display: none;
+ }
+ #banner .responsive_baner_img{
+    display: block;
+ }   
+ .banner_text h1 {
+    font-weight: 200;
+	font-size: 45px;
+	line-height: 60px;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+}
+ .banner_text h1 span {
+	font-weight: 500;
+	overflow:visible;
+	white-space: nowrap;
+	border-right: 0;
+	animation: type 1.7s steps(90) .4s normal both, cursor 1s step-end infinite;
+	position: relative;
+}
+.banner_text .text_line {
+	width: 100%;
+	height: 2px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.banner_text p {
+	width: 100%;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 0;
+	margin-bottom: 26px;
+}
+.banner_bttons {
+	gap: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.banner_bttons .play {
+	width: 90px;
+}
+/* -----banner css end------ */
+/* ----counter up css start------ */
+#count_up {
+	padding-top: 100px;
+}
+.all_counters {
+	/* justify-content: center; */
+	flex-wrap: wrap;
+	gap: 25px;
+}
+.all_counters .single_counter {
+	width: 100%;
+}
+/* ----counter up css end------ */
+/* ------product information css start----- */
+.common_head h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.common_head p {
+	font-size: 16px;
+	font-weight: 300;
+}
+#product_ifo {
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+#product_ifo .product_info_img{
+   display: none;
+}
+#product_ifo .responsiv_info_img{
+   display: block;
+}
+#product_ifo .product_ditels {
+	margin-top: 30px;
+	justify-content: flex-start;
+}
+.product_ditels ul li {
+	margin-bottom: 20px;
+	gap: 15px;
+}
+.product_ditels ul li img {
+	width: 40px;
+}
+.product_ditels ul li p {
+	font-size: 18px;
+}
+/* ------product information css end----- */
+ /* ------motor part css start--- */
+ #motor {
+	padding-top: 60px;
+}
+#motor .motor_img {
+	margin-top: 35px;
+}
+ /* ------motor part css end--- */
+ /* ------Accessories part css start--- */
+ #Accessories {
+	padding-top: 100px;
+}
+#Accessories .Accessories_row {
+	margin-top: 46px;
+}
+.common_list h2 {
+	margin-bottom: 28px;
+	font-size: 28px;
+}
+.common_list ul li {
+	margin-bottom: 20px;
+	gap: 15px;
+}
+.common_list ul li img {
+	width: 40px;
+}
+.common_list ul li p {
+	font-size: 18px;
+}
+.common_list ul li:nth-child(4){
+    margin-bottom: 30px;
+}
+ /* ------Accessories row 1 part css end--- */
+ /* ------Accessories row 2 part css end--- */
+ .Accessories_row_2 {
+	padding-top: 40px;
+ }
+.rack_list {
+	align-items: start;
+	padding-top: 50px;
+}
+ .Accessories_row_2 .responsive_rack_img{
+    display: block;
+}
+#Accessories .sopping_rack_img{
+	display: none;
+}
+.more_Accessories {
+	width: 100%;
+	margin-top: 45px;
+	text-align: center;
+}
+.more_Accessories h3 {
+	font-size: 25px;
+}
+ /* ------Accessories row 2 part css end--- */
+ /* ------gallery part start----- */
+ #gallery {
+	padding-top: 76px;
+	padding-bottom: 66px;
+}
+#gallery .gallery_col_1 {
+	margin-top: 60px;
+}
+.gallery_col_1 .gallery_img_1 {
+	margin-bottom: 35px;
+}
+.gallery_col_1 .gallery_buttons a {
+	width: 100%;
+	font-weight: 600;
+	height: 70px;
+	font-size: 20px;
+}
+#gallery .gallery_col_2 {
+	margin-top: 35px;
+}
+.gallery_col_2 .gallery_img_2 {
+	margin-bottom: 35px;
+}
+#gallery .gallery_img {
+	width: 100%;
+}
+/* ------gallery part end----- */
+/* ------my_slider css part start----- */
+.my_slider {
+	margin-top: 40px;
+}
+.my_slider .slider-nav {
+	bottom: -44px;
+}
+/* ------my_slider css part end----- */
+/* ----colors css part start---- */
+#colors {
+	padding-bottom: 130px;
+}
+/* ----colors css part end---- */
+/* ----------Testimonials---start------- */
+#Testimonials {
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.my_slider_2 .slider_items .single_slider_item {
+	width: 296px;
+	margin: 0 auto;
+	height: auto;
+}
+.my_slider_2 .slider_items .single_slider_item h2 {
+	width: 250px;
+	height: auto;
+	font-size: 16px;
+	font-weight: 300;
+}
+.arrow1, .arrow2 {
+	width: 30px;
+    height: 30px;
+    bottom: -50px;
+	transform: translatex(0%);
+}
+.arrow1 {
+	left: 39%;
+}
+.arrow2 {
+	right: 39%;
+}
+/* ----------Testimonials-----end------ */
+/* /* ----subscription-start   ---- * */
+#subscribe {
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+#subscribe .email_button {
+	flex-direction: column;
+	margin-top: 26px;
+	align-items: center;
+}
+.email_button input {
+	border-radius: 10px;
+	padding-left: 18px;
+	width: 100%;
+	height: 70px;
+}
+.email_button a {
+	height: 70px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+/* ----subscription-end  -- ---- */
+/* ----footer part start--- */
+footer {
+	padding-top: 40px;
+	padding-bottom: 70px;
+	margin-top: 50px;
+}
+footer .footer_row {
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 35px;
+	padding: 20px;
+}
+.footer_row .footer_col h3 {
+	margin-bottom: 20px;
+}
+.footer_row .footer_col ul li a {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 35px;
+}
+footer p {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+}
+footer .footer_img{
+	display: none;
+}
+#respons .responsiv_footer_img{
+	display: block;
+}
+/* ----footer part end--- */
+}
+/* ----Extra small device responsive css end ---- */
+/* -----small device- responsive css start ---- */
+@media (min-width:576px) and (max-width:767.98px){
+	/* ---commom--css----- */
+	.common_head h2 {
+	font-size: 45px;
+	margin-bottom: 28px;
+}
+	/* ----manu css --end  ------ */
+.main_manu img {
+	width: 45px;
+}
+.main_manu {
+	padding: 18px 0px;
+} 
+.navbar-toggler{
+    padding: 0;
+    border: 0;
+    font-size: 24px;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler-icon {
+	width: 22px;
+	height: 22px;
+}
+.main_manu .main_ul li:hover::before {
+	width: 0;
+}
+.main_manu .main_ul {
+	flex-direction: row;
+	gap: 25px;
+   
+    align-items: center;
+	
+	padding-top: 10px;
+}
+.ul_botton{
+	display: flex;
+	border-top: 1px solid #EAE8F3;
+	padding-top: 20px;
+	 margin-top: 25px;
+}
+.main_manu .main_ul li:hover ul {
+    visibility: hidden;
+}
+.main_manu .main_ul .fit_before:hover::before{
+    width: 0;
+}
+/* -------manu part end--------- */
+/* -------banner part start ------- */
+#banner .banner_img{
+    display: none;
+ }
+ #banner .responsive_baner_img{
+    display: block;
+ } 
+.banner_text h1 {
+	font-size: 41px;
+	line-height: 55px;
+ }
+ .banner_text .text_line {
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+/* ----banner part end--------- */
+/* -------counter part start ------- */
+#count_up {
+	padding-top: 120px;
+}
+.all_counters {
+	flex-wrap: wrap;
+	gap: 16px;
+}
+.all_counters .single_counter {
+	width: 250px;
+}
+/* -------counter part end ------- */
+/* -------product  part start ------- */
+ #product_ifo {
+	padding-bottom: 60px;
+ }
+#product_ifo .product_info_img{
+   display: none;
+}
+#product_ifo .responsiv_info_img{
+   display: block;
+}
+#product_ifo .product_ditels {
+	margin-top: 30px;
+}
+/* -------product_ part end ------- */
+/* -------motor part start ------- */
+#motor {
+	padding-top: 40px;
+}
+/* -------motor part end ------- */
+/* -------Accessories part start ------- */
+#Accessories {
+	padding-top: 120px;
+}
+#Accessories .Accessories_row {
+	margin-top: 65px;
+	gap: 20px;
+}
+.common_list h2 {
+	margin-bottom: 33px;
+	font-size: 36px;
+}
+.common_list ul li {
+	margin-bottom: 25px;
+	gap: 18px;
+}
+.common_list ul li img {
+	width: 42px;
+}
+.Accessories_row_2{
+	margin-top: 100px;
+}
+.Accessories_row_2 .responsive_rack_img{
+    display: block;
+}
+#Accessories .sopping_rack_img{
+	display: none;
+}
+.rack_list {
+	padding-top: 60px;
+	align-items: start;
+}
+.more_Accessories {
+	width: 100%;
+	height: 88px;
+	margin-top: 70px;
+}
+/* -------Accessories part end ------- */
+/* -------gallery part end ------- */
+#gallery {
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+#gallery .gallery_col_1 {
+	margin-top: 70px;
+}
+#gallery .gallery_img {
+	width: 520px;
+}
+.gallery_col_2 .gallery_img_2 {
+	margin-bottom: 40px;
+}
+#gallery .gallery_col_2 {
+	margin-top: 50px;
+}
+.gallery_col_1 .gallery_buttons a {
+	width: 522px;
+	height: 85px;
+	font-size: 26px;
+}
+/* -------gallery part end ------- */
+/* -------colors part start ------- */
+#colors {
+	padding-bottom: 150px;
+}
+.my_slider {
+	margin-top: 70px;
+	position: relative;
+}
+.my_slider .slider-nav {
+	bottom: -78px;
+}
+/* -------colors part end ------- */
+/* -------testimonials part start ------- */
+#Testimonials {
+	padding-top: 70px;
+	padding-bottom: 125px;
+}
+.my_slider_2 .slider_items .single_slider_item {
+	width: 250px;
+}
+.slider_items .single_slider_item h2 {
+	width: 220px;
+	height: 189px;
+}
+.my_slider_2 {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+.slider_items .single_slider_item h2 {
+	width: 200px;
+	height: 126px;
+	font-size: 17px;
+}
+.slider_items .single_slider_item .item_3 {
+	width: 200px;
+}
+.arrow2 {
+	right: 35%;
+}
+/* -------testimonials part end ------- */
+/* --subscribe css start--- */
+#subscribe {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+/* --subscribe css end--- */
+/* ----footer part css start----- */
+footer {
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+footer .footer_img{
+	display: none;
+}
+#respons .responsiv_footer_img{
+	display: block;
+}
+/* ----footer part css end------ */
+
+}
+/* -----small device - responsive css end ---- */
